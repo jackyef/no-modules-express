@@ -1,0 +1,13 @@
+{
+  "name": "no-modules-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "jackyef <jacky.efendi1@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
