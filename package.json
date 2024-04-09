@@ -5,9 +5,13 @@
   "author": "jackyef <jacky.efendi1@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "node src/index.js"
+    "dev": "node src/index.js",
+    "start": "node dist/bundle.js",
+    "build": "webpack --mode production"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
   }
 }
